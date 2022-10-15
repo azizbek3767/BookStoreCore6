@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAqmZQZXpdwEGzqFf4Wm8e4AAAAAACAAAAAAAQZgAAAAEAACAAAADu2/y9hH+2Nfpi1q9kJ3mjzSumLGUig+x85UIK0Aga4AAAAAAOgAAAAAIAACAAAAAly6JAzs9leIbN96fRX8Lweon3xbpi2EK0kGsrAihf7oAAAAAHrY0GdeudIfJoN+4VnjIkCndOK+/v+1qTTqtnxB4H5hB6Q1O8BzSgQSFlJWjhuJVDquzz4QqAgbpkYZB4zfzeba+Y2HpHRGHPtaI343cpdOiQmHG+uh+FbLSA0dtEBcCgCR6j62Fv1M6sZYPGuD5w16P4GDydGZKYce2qTpEJfUAAAADN3XduVlUdDA5liiW2k0Yot7WKCuMkHeXLaaNwIqzn4NGXi2Y4kLZX2+XUJIAW0z2+KysnVPqGSwx3aE0fg2mx</EncryptedPassword>
+    <History>True|2022-09-21T21:20:20.5117516Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:rockycruddb123.database.windows.net,1433%3bInitial Catalog=az_netcore6%3bPersist Security Info=False%3bUser ID=adminuser%3bPassword=Admin123%2a%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="BulkyBookWeb.Data.ApplicationDbContext">
+      <Value>Server=tcp:rockycruddb123.database.windows.net,1433%3bInitial Catalog=az_netcore6%3bPersist Security Info=False%3bUser ID=adminuser%3bPassword=Admin123%2a%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
